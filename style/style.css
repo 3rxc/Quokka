@@ -1,4 +1,5 @@
 * {
+    font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -18,8 +19,16 @@ header {
 }
 
 .top h1 {
-    font-size:8vw;
+    font-size: 8vw;
+    color: #edf0f1;
     text-align: center;
+    margin-top: -30vw;
+    /**font-family: 'Biryani', sans-serif;**/
+}
+
+.mid_section .section_header {
+    text-align: center;
+    font-size: 2vw;
 }
 
 .logo {

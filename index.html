@@ -7,20 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-    <img class="logo" src="images/logo.png" alt="logo">
-    <nav>
-        <ul class="nav__links">
-            <li><a href="#characteristics">Merkmale</a></li>
-            <li><a href="#origin">Herkunft</a></li>
-            <li><a href="#preparation">Zubereitung</a></li>
-        </ul>
-    </nav>
-    <a class="donation" href="https://www.wwf.de/spenden-helfen/allgemeine-spende/formular/anzeigen/spenden/eintragen/">Donate</a>
-    <p onclick="openNav()" class="menu donation">Menu</p>
-</header>
+    <header>
+        <img class="logo" src="images/logo.png" alt="logo">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#characteristics">Merkmale</a></li>
+                <li><a href="#origin">Herkunft</a></li>
+                <li><a href="#preparation">Zubereitung</a></li>
+            </ul>
+        </nav>
+        <a class="donation" href="https://www.wwf.de/spenden-helfen/allgemeine-spende/formular/anzeigen/spenden/eintragen/">Donate</a>
+        <p onclick="openNav()" class="menu donation">Menu</p>
+    </header>
     <div id="mobile__menu" class="overlay">
         <a class="close" onclick="closeNav()">&times;</a>
         <div class="overlay__content">
@@ -31,12 +32,19 @@
         </div>
     </div>
     <script type="text/javascript" src="script/mobile.js"></script>
-
-    <div class="top">
-        <img src="images/img_1.jpg" alt="Image" class="responsive">
-        <h1>Quokka</h1>
-    </div>
-
+    <section id="top">
+        <div class="top">
+            <img src="images/img_1.jpg" alt="Image">
+            <h1>QUOKKA</h1>
+            <p>Das Quokka ist eine Beuteltierart der Familie der Kängurus</p>
+        </div>
+    </section>
+    <section id="characteristics" class="mid_section">
+        <div class="section_header">
+            <h2>Merkmale</h2>
+            <p>Die Merkmale eines Quokkas</p>
+        </div>
+    </section>
 
 </body>
 </html>
