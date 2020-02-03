@@ -71,6 +71,30 @@ p.centered_text {
     font-size: 1.5vw;
 }
 
+img.left_img {
+    float: left;
+    margin-right: 10vw;
+    height: 20vw;
+    width: auto;
+}
+
+p.right_text {
+    margin: 0;
+    line-height: 20vw;
+}
+
+img.right_img {
+    float: right;
+    margin-right: 10vw;
+    height: 20vw;
+    width: auto;
+}
+
+p.left_text {
+    margin: 0;
+    line-height: 20vw;
+}
+
 .logo {
     cursor: pointer;
 }
