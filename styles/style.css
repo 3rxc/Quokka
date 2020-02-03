@@ -23,6 +23,7 @@ header {
 }
 
 .top h1 {
+    font-family: 'Roboto', sans-serif;
     font-size: 8vw;
     color: #edf0f1;
     text-align: center;
@@ -95,6 +96,16 @@ p.left_text {
     line-height: 20vw;
 }
 
+.bottom {
+    height: 5vw;
+    text-align: center;
+    line-height: 5vw;
+    ont-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #24252a;
+    text-decoration: none;
+}
+
 .logo {
     cursor: pointer;
 }
@@ -137,8 +148,6 @@ p.left_text {
 .donation:hover {
     background-color: #FF7B5C;
 }
-
-/* Mobile Nav */
 
 .menu {
     display: none;
@@ -202,4 +211,32 @@ p.left_text {
     .menu {
         display: initial;
     }
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding:0.3em 0.5em;
+
+}
+
+table {
+    margin-left: 1em;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+th, caption {
+    background-color: #666;
+    color: #edf0f1;
+    border: 1px solid #666;
+}
+
+td {
+    background-image: linear-gradient(#edf0f1, #e3e3e3);
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    color: #24252a;
+}
+
+tfoot {
+    border-bottom: 1px solid #666;
 }
