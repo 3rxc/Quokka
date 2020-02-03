@@ -36,11 +36,10 @@ header {
 }
 
 #characteristics {
-    margin-top: 12vw;
+    margin-top: 15vw;
 }
 
 .mid_section {
-    background-color: deeppink;
     width: 100%;
     /*margin-top: 17vw;*/
     padding: 5vw;
@@ -49,21 +48,27 @@ header {
 }
 .col_grey {
     background-color: #24252a;
+    color: #edf0f1;
 }
 .col_orange {
     background-color: #E88654;
+    color: #24252a;
 }
 
 h2.section_heading {
     text-align: center;
     font-size: 3vw;
-    color: #edf0f1;
 }
 
 p.section_undertitle {
     text-align: center;
     font-size: 2vw;
-    color: #edf0f1;
+    padding-bottom: 1vw;
+}
+
+p.centered_text {
+    text-align: center;
+    font-size: 1.5vw;
 }
 
 .logo {
