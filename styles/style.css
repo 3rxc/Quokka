@@ -26,9 +26,27 @@ header {
     /**font-family: 'Biryani', sans-serif;**/
 }
 
-.mid_section .section_header {
-    text-align: center;
+.top p {
     font-size: 2vw;
+    color: #edf0f1;
+    text-align: center;
+}
+
+
+.mid_section .section_heading h2 {
+    text-align: center;
+    font-size: 3vw;
+    color: #edf0f1;
+}
+
+.mid_section hr {
+    max-width: 50px;
+    border-color: #e2001a;
+    border-width: 3px;
+}
+
+.mid_section .light hr {
+    border-color: #000000;
 }
 
 .logo {
